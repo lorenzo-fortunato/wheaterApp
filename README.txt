@@ -6,5 +6,6 @@ Per il funzionamento dell'app in locale è necessario andare su https://home.ope
 
 Dopodiché bisogna andare nel file index.js ed istanziare:
 const apiKey = "la_tua_key";
+inserendo il valore generato.
 
 Ignorare il commento a riga 42 nel file index.html, necessario per valorizzare correttamente la mia variabile apiKey.
