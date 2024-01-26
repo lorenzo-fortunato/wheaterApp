@@ -9,3 +9,5 @@ const apiKey = "la_tua_key";
 inserendo il valore generato.
 
 Ignorare il commento a riga 42 nel file index.html, necessario per valorizzare correttamente la mia variabile apiKey.
+
+Il file otherAsync.js contiene alternative (fetchAPi, async/await) per effettuare la chiamata all'API.
