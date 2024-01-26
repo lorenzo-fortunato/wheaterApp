@@ -22,7 +22,7 @@ buttonClear.addEventListener("click", e => {
   count = 0;
 })
 
-/// Http call using ajax
+/// Http call using ajax, view otherAsync.js for alternatives
 function fetchData(myUrl) {
   let http = new XMLHttpRequest();
   http.open("GET", myUrl, true);
