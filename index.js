@@ -116,7 +116,7 @@ async function successCallBack(pos) {
 }
 
 function errorCallBAck() {
-  msg.textContent = "Non ti sto trovando..."
+  msg.textContent = "I'm not able to find you..."
 }
 
 buttonPosition.addEventListener("click", e => {
