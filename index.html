@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style/style_basic.css">
+    <link rel="stylesheet" href="style/style_firstSection.css">
+    <link rel="stylesheet" href="style/style_secondSection.css">
+    <link rel="stylesheet" href="style/style_custom.css">
+    <link rel="stylesheet" href="style/style_animations.css">
+</head>
+<body>
+    <header></header>
+
+    <main>
+        <section class="top-banner">
+            <div class="container">
+                <h1 class="heading">Weather App</h1>
+                <div class="searchContainer">
+                    <form>
+                        <input type="text" placeholder="Search for a city" autofocus>
+                        <button type="submit">Search</button>
+                    </form>
+                    <button class="clear">Clear</button>
+                    <button class="position">Current position</button>
+                </div>
+                <div class="msg"></div>
+            </div>
+        </section>
+        <section class="ajax-section">
+            <div class="container">
+                <ul class="cities"></ul>
+            </div>
+        </section>
+    </main>
+
+    <footer></footer>
+
+    <script src='index.js'></script>
+    <script src="otherAsync.js"></script>
+    <!-- <script src='apiKeyValue.js'></script> -->
+</body>
+</html>

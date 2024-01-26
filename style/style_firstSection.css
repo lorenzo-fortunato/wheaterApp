@@ -1,0 +1,88 @@
+/* first section styles */
+.top-banner {
+    color: var(--text_light);
+    text-align: center;
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 4rem;
+    letter-spacing: 0.2em;
+    padding: 0 0 30px 0;
+}
+
+.top-banner form input {
+    font-size: 2rem;
+    height: 40px;
+    padding: 5px 5px 10px;
+    border-bottom: 1px solid;
+}
+
+.top-banner form input::placeholder {
+    color: currentColor;
+}
+
+.top-banner button {
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    padding: 15px 20px;
+    margin-left: 15px;
+    border-radius: 15px;
+    background: var(--strongOrange);
+    transition: background 0.3 ease-in-out;
+    box-shadow: 5px 5px 8px lightslategrey
+}
+
+.top-banner button:hover {
+    background: var(--yellow);
+    color: var(--strongOrange);
+}
+
+.top-banner form .msg {
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    max-width: 450px;
+    min-height: 40px;
+}
+
+.container {
+    animation: fadeIn 2s;
+}
+
+.searchContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.clear {
+    margin-left: 30px;
+}
+
+.msg {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+    .top-banner form {
+        flex-direction: column;
+    }
+
+    .top-banner form input,
+    .top-banner form button {
+        width: 100%;
+    }
+
+    .top-banner form button {
+        margin: 20px 0 0 0;
+    }
+
+    .top-banner form .msg {
+        position: static;
+        max-width: none;
+        min-height: 0;
+        margin-top: 10px;
+    }
+}
